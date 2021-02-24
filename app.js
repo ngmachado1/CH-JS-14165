@@ -35,7 +35,7 @@ alert(perimetroRectangulo(ladoA, ladoB));
          console.log(n +"x"+ i +" = "+i * n);
          
          //mostrar en el documento html la tabla
-         document.write(n +"x"+ i +" = "+i * n);
+         document.write(n +"x"+ i +" = "+i * n+ "<br>");
      }
  }
 //llamamos a la funcion para que se ejecute
