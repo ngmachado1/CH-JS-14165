@@ -5,7 +5,9 @@ Una funcion es una estructura de codigo que ejecuta datos de entrada
  dato o acción.
 
  function (parametros de entrada){    
+ 
     proceso (instrucciones)    
+    
     ->devuelve datos (return)    
     o bien,     
     ->realiza una accion.
@@ -25,50 +27,63 @@ input: Son parametros de la funcion y no son necesariamente obligatorios.
         Esto propiamente ya sería un output. Un efecto sobre el exterior.
         Una función puede devolver datos y o acciones de cualquier tipo.
         
+       --------------------------------------------------------------------------
+        
+       
         Scope
 
-        nivel local -> dentro de una funcion
-        nivel global -> fuera de una funcion
+        nivel local -> las variables que estan dentro de una funcion son accesibles a su valor asignado solo dentro de la funcion
+        nivel global -> las variables que estan fuera de una funcion son accesibles a su valor asignado en cualquier parte del codigo
 
+        Declaracion y asignacion
         var numero = 3;
+        
+        
         declaracion 
         var numero;
 
         asignacion
         numero = 1;
 
-
-        var let y const 
+------------------------------------------------------------------
 
         Hoisting
-
-pepito()
-
-        function pepito(numero){
-            return numero
-        }
-        var numero;
-pepito()pepito()pepito()
-pepito()
-
-
-        numero = 8;
-
-
-
-        for ()
-
         
-        para calcular el perímetro de un rectángulo necesitamos saber la longitud 
-    de 2 lados contiguos    
-    la fórmula del perímetro  es p = 2*(a +b) dónde a y b 
-    son dos lados no opuestos.    
+        
+        Es esencial quedarnos con dos conceptos:
+        Las funciones siempre se mueven arriba del scope. Por lo tanto, podemos elegir donde declararlas y usarlas.
+        La declaración de las variables se mueven arriba del scope, pero no la asignación. Antes de usar una variable, habrá que crearla y asignarla.
+        
+        https://developer.mozilla.org/es/docs/Glossary/Hoisting
+        https://medium.com/@anamartinezaguilar/qu%C3%A9-es-el-hoisting-327870f67b36
+        
+        
+        var numero;  //-> se puede redefinir  ->se puede reasignar -> alcance su contexto de ejecucion (dentro o fuera de una funcion)
+        let numero; //-> no se puede redefinir, -> si se puede reasignar -> alcance de bloque (dentro de las {} de cualquier bloque.. ej, un if(true){let n = 1}
+        const numero; // --> no se puede redefinir, -> no se puede reasignar -> alcance de bloque
+        
+        
+        
+        
+        
+        -------------------PROBLEMAS TRABAJADOS EN AFTER CLASS DE FUNCIONES ------------------
+        
+        
+        Hacer funciones para calcular el perimetro de un rectangulo.
+            
+        la fórmula del perímetro  es p = 2*(a +b) dónde a y b son dos lados contiguos.    
+        
+        
+        
+        
+        -------------------------------------------------------------------------------------
+        
+        Crear una tabla de multiplicar que le pida al usuario el numero que desea multiplicar e imprimirla por pantalla
+        
     
     Crear una tabla de multiplicar.*/
     
-        var numero;  //-> redefinir  ->reasignar ->alcance scope
-        let numero; //-> no se puede redefinir, -> si se puede reasignar -> alcance de bloque
-        const numero; // --> no se puede redefinir, -> no se puede reasignar -> alcance de bloque 
+
 
         // function(){
         //     //scope de la variable local
