@@ -69,66 +69,20 @@ input: Son parametros de la funcion y no son necesariamente obligatorios.
         -------------------PROBLEMAS TRABAJADOS EN AFTER CLASS DE FUNCIONES ------------------
         
         
+        //PROBLEMA 1
+        
         Hacer funciones para calcular el perimetro de un rectangulo.
             
         la fórmula del perímetro  es p = 2*(a +b) dónde a y b son dos lados contiguos.    
         
         
-        
-        
-        -------------------------------------------------------------------------------------
+       //PROBLEMA 2
         
         Crear una tabla de multiplicar que le pida al usuario el numero que desea multiplicar e imprimirla por pantalla
         
+        
+        RESOLICION EN app.js
+        
+        */
     
-    Crear una tabla de multiplicar.*/
-    
 
-
-        // function(){
-        //     //scope de la variable local
-
-        //     if(){
-        //         var otroNumero;
-        //         let numero
-        //     }
-
-        // }
-
-        console.log(numero);
-
-        numero = 1;
-
-        console.log(numero) // 1
-
-
-
-var numero =1;
-console.log(numero)
-
-
-
-
-    
-    //2*(a+b)// function pedirDato(){ 
-//    return parseFloat(prompt("ingrese la medida del lado"))
-// } 
-
-//var pedirDato = () => parseFloat(prompt("ingrese la medida del lado"));
-
-
-// var ladoA = pedirDato()
-// var ladoB = pedirDato()
-
-// function calcularPerimtro(parametroA, parametroB) {
-//     return 2 * (parametroA + parametroB)
-// } document.write('los lados del rectangulo miden ' + ladoA + ' y ' + ladoB + 'cm <br>' + 'y su perimetro total es: ' + calcularPerimtro(ladoA, ladoB))
-//console.log(calcularPerimtro(ladoA, ladoB))//
-    // var numero = parseInt(prompt('tabla que desea conocer'));
-    // function crearTabla(n){//     //multiplicar del 1 al 10
-    //     for(var i = 0; i<=10; i++){
-    //         var resultado = n*r;
-    //         document.write(n + " x " + i + " = " + resultado  + "<br>")
-    //     }
-    // }
-    // crearTabla(numero)
